@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E033A4B0273E996900BCBE92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4AF273E996900BCBE92 /* Constants.swift */; };
+		E033A4B4273EC81800BCBE92 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4B3273EC81800BCBE92 /* HomeViewModel.swift */; };
+		E033A4B9273EC92000BCBE92 /* AddEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4B8273EC92000BCBE92 /* AddEntityViewModel.swift */; };
+		E033A4BB273EE2AD00BCBE92 /* AutosizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4BA273EE2AD00BCBE92 /* AutosizeTextField.swift */; };
+		E033A4BD273EE2F700BCBE92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4BC273EE2F700BCBE92 /* MapView.swift */; };
+		E033A4C1273F077D00BCBE92 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E033A4C0273F077D00BCBE92 /* Color.swift */; };
+		E05CAAEF273DE5D8006B8D33 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05CAAEE273DE5D8006B8D33 /* ImagePicker.swift */; };
+		E0943A5D273DD32200D29428 /* MapAnnotationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0943A5C273DD32200D29428 /* MapAnnotationVIew.swift */; };
+		E0943A5F273DD3C300D29428 /* ForageEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0943A5E273DD3C300D29428 /* ForageEntityViewModel.swift */; };
+		E0943A61273DDC1200D29428 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0943A60273DDC1200D29428 /* PostDetailView.swift */; };
+		E0943A63273DDD9800D29428 /* AddEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0943A62273DDD9800D29428 /* AddEntityView.swift */; };
 		E0AE878D273DC6E400046C06 /* iForageCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AE878C273DC6E400046C06 /* iForageCoreDataApp.swift */; };
-		E0AE878F273DC6E400046C06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AE878E273DC6E400046C06 /* ContentView.swift */; };
 		E0AE8791273DC6E500046C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AE8790273DC6E500046C06 /* Assets.xcassets */; };
 		E0AE8794273DC6E500046C06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AE8793273DC6E500046C06 /* Preview Assets.xcassets */; };
+		E0AE879C273DC6F600046C06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AE879B273DC6F600046C06 /* HomeView.swift */; };
+		E0AE879F273DC72E00046C06 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AE879E273DC72E00046C06 /* LocationManager.swift */; };
+		E0AE87A1273DCAA100046C06 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AE87A0273DCAA100046C06 /* CoreDataManager.swift */; };
+		E0AE87A4273DCC9A00046C06 /* ForageAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0AE87A2273DCC9A00046C06 /* ForageAppModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E033A4AF273E996900BCBE92 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E033A4B3273EC81800BCBE92 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E033A4B8273EC92000BCBE92 /* AddEntityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntityViewModel.swift; sourceTree = "<group>"; };
+		E033A4BA273EE2AD00BCBE92 /* AutosizeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutosizeTextField.swift; sourceTree = "<group>"; };
+		E033A4BC273EE2F700BCBE92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E033A4C0273F077D00BCBE92 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E05CAAEE273DE5D8006B8D33 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E0943A5C273DD32200D29428 /* MapAnnotationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationVIew.swift; sourceTree = "<group>"; };
+		E0943A5E273DD3C300D29428 /* ForageEntityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForageEntityViewModel.swift; sourceTree = "<group>"; };
+		E0943A60273DDC1200D29428 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		E0943A62273DDD9800D29428 /* AddEntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntityView.swift; sourceTree = "<group>"; };
 		E0AE8789273DC6E400046C06 /* iForageCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iForageCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AE878C273DC6E400046C06 /* iForageCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iForageCoreDataApp.swift; sourceTree = "<group>"; };
-		E0AE878E273DC6E400046C06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0AE8790273DC6E500046C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0AE8793273DC6E500046C06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0AE879B273DC6F600046C06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E0AE879E273DC72E00046C06 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E0AE87A0273DCAA100046C06 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E0AE87A3273DCC9A00046C06 /* ForageAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForageAppModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E033A4B1273EC80C00BCBE92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE879B273DC6F600046C06 /* HomeView.swift */,
+				E033A4B3273EC81800BCBE92 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E033A4B5273EC86100BCBE92 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E0943A5C273DD32200D29428 /* MapAnnotationVIew.swift */,
+				E033A4BC273EE2F700BCBE92 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E033A4B6273EC87000BCBE92 /* PostDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E0943A60273DDC1200D29428 /* PostDetailView.swift */,
+			);
+			path = PostDetailView;
+			sourceTree = "<group>";
+		};
+		E033A4B7273EC89F00BCBE92 /* AddEntity */ = {
+			isa = PBXGroup;
+			children = (
+				E0943A62273DDD9800D29428 /* AddEntityView.swift */,
+				E033A4B8273EC92000BCBE92 /* AddEntityViewModel.swift */,
+			);
+			path = AddEntity;
+			sourceTree = "<group>";
+		};
+		E0943A59273DD16B00D29428 /* ForageViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0943A5E273DD3C300D29428 /* ForageEntityViewModel.swift */,
+			);
+			path = ForageViewModel;
+			sourceTree = "<group>";
+		};
 		E0AE8780273DC6E400046C06 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +123,13 @@
 			isa = PBXGroup;
 			children = (
 				E0AE878C273DC6E400046C06 /* iForageCoreDataApp.swift */,
-				E0AE878E273DC6E400046C06 /* ContentView.swift */,
+				E033A4AF273E996900BCBE92 /* Constants.swift */,
+				E0AE879D273DC72600046C06 /* Managers */,
+				E0AE879A273DC6EA00046C06 /* Components */,
+				E0943A59273DD16B00D29428 /* ForageViewModel */,
 				E0AE8790273DC6E500046C06 /* Assets.xcassets */,
 				E0AE8792273DC6E500046C06 /* Preview Content */,
+				E0AE87A2273DCC9A00046C06 /* ForageAppModel.xcdatamodeld */,
 			);
 			path = iForageCoreData;
 			sourceTree = "<group>";
@@ -65,6 +140,29 @@
 				E0AE8793273DC6E500046C06 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0AE879A273DC6EA00046C06 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E033A4B1273EC80C00BCBE92 /* Home */,
+				E033A4B5273EC86100BCBE92 /* Map */,
+				E033A4B6273EC87000BCBE92 /* PostDetailView */,
+				E033A4B7273EC89F00BCBE92 /* AddEntity */,
+				E033A4BA273EE2AD00BCBE92 /* AutosizeTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E0AE879D273DC72600046C06 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE879E273DC72E00046C06 /* LocationManager.swift */,
+				E033A4C0273F077D00BCBE92 /* Color.swift */,
+				E05CAAEE273DE5D8006B8D33 /* ImagePicker.swift */,
+				E0AE87A0273DCAA100046C06 /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AE878F273DC6E400046C06 /* ContentView.swift in Sources */,
+				E0943A63273DDD9800D29428 /* AddEntityView.swift in Sources */,
+				E033A4BB273EE2AD00BCBE92 /* AutosizeTextField.swift in Sources */,
+				E033A4B9273EC92000BCBE92 /* AddEntityViewModel.swift in Sources */,
+				E033A4B0273E996900BCBE92 /* Constants.swift in Sources */,
+				E0AE879F273DC72E00046C06 /* LocationManager.swift in Sources */,
+				E033A4C1273F077D00BCBE92 /* Color.swift in Sources */,
+				E0AE87A4273DCC9A00046C06 /* ForageAppModel.xcdatamodeld in Sources */,
+				E0AE879C273DC6F600046C06 /* HomeView.swift in Sources */,
+				E033A4BD273EE2F700BCBE92 /* MapView.swift in Sources */,
+				E0943A61273DDC1200D29428 /* PostDetailView.swift in Sources */,
+				E0AE87A1273DCAA100046C06 /* CoreDataManager.swift in Sources */,
+				E033A4B4273EC81800BCBE92 /* HomeViewModel.swift in Sources */,
+				E0943A5D273DD32200D29428 /* MapAnnotationVIew.swift in Sources */,
+				E05CAAEF273DE5D8006B8D33 /* ImagePicker.swift in Sources */,
+				E0943A5F273DD3C300D29428 /* ForageEntityViewModel.swift in Sources */,
 				E0AE878D273DC6E400046C06 /* iForageCoreDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +384,9 @@
 				DEVELOPMENT_TEAM = 2775XVJ3MG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location pls";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location pls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +416,9 @@
 				DEVELOPMENT_TEAM = 2775XVJ3MG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location pls";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location pls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +459,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0AE87A2273DCC9A00046C06 /* ForageAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0AE87A3273DCC9A00046C06 /* ForageAppModel.xcdatamodel */,
+			);
+			currentVersion = E0AE87A3273DCC9A00046C06 /* ForageAppModel.xcdatamodel */;
+			path = ForageAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E0AE8781273DC6E400046C06 /* Project object */;
 }

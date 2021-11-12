@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct iForageCoreDataApp: App {
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        
+            WindowGroup {
+                
+                let viewContext = CoreDataManager.shared.viewContext
+                NavigationView {
+                
+                HomeView(viewModel: HomeView.ViewModel(context: viewContext))
+                    .environment(\.managedObjectContext, viewContext)
+                    .navigationTitle("")
+                    .navigationBarHidden(true)
+                }
+            }
     }
 }
