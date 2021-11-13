@@ -13,7 +13,8 @@ import CoreData
 extension AddEntityView {
     class ViewModel: ObservableObject {
         
-        @ObservedObject var locationManager = LocationManager()
+        
+        @Published var centerCoordinate: CLLocation = CLLocation(latitude: LocationManager.shared.currentLocation?.coordinate.latitude ?? 0, longitude: LocationManager.shared.currentLocation?.coordinate.longitude ?? 0)
         
         @Published var showMap = false
         
@@ -31,10 +32,10 @@ extension AddEntityView {
         
         init(viewContext: NSManagedObjectContext){
             self.viewContext = viewContext
-            self.locationManager.requestLocation()
         }
         
         func addEntity(){
+            
             let entity = ForageEntity(context: viewContext)
             entity.title = titleTextField
             entity.caption = captionTextField
@@ -42,8 +43,8 @@ extension AddEntityView {
             guard let image = selectedImage else { return }
             
             entity.imageData = image.jpegData(compressionQuality: 0.5)
-            entity.lat = locationManager.currentLocation?.coordinate.latitude ?? 0
-            entity.lng = locationManager.currentLocation?.coordinate.longitude ?? 0
+            entity.lat = centerCoordinate.coordinate.latitude
+            entity.lng = centerCoordinate.coordinate.longitude
             CoreDataManager.shared.save()
         }
     }

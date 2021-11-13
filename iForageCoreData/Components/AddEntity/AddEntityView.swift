@@ -12,8 +12,6 @@ struct AddEntityView: View {
     
     @Binding var binding: Bool
     
-    @State var centerCoordinate: CLLocation = LocationManager.shared.currentLocation ?? CLLocation(latitude: 0, longitude: 0)
-    
     @EnvironmentObject var homeViewModel: HomeView.ViewModel
     
     @StateObject var viewModel: ViewModel
@@ -67,6 +65,8 @@ struct AddEntityView: View {
                 .padding(.vertical, 10)
                 .padding(.horizontal, 10)
                 
+                ZStack {
+                
                 Button {
                     viewModel.showConfirmationSheet = true
                 } label: {
@@ -74,6 +74,7 @@ struct AddEntityView: View {
                         Image(uiImage: image)
                             .resizable()
                             .scaledToFill()
+                            .frame(height: 200)
                             .clipped()
                             .cornerRadius(0)
                     }else{
@@ -100,8 +101,10 @@ struct AddEntityView: View {
                         }// - ZStack
                     }
                     
+                }
+                .padding(.horizontal, 15)
+                    
                 }// - Button
-                .frame(height: 250)
                 .confirmationDialog("Which would you like to use?", isPresented: $viewModel.showConfirmationSheet, titleVisibility: .visible) {
                     Button {
                         viewModel.sourceType = .camera
@@ -133,7 +136,7 @@ struct AddEntityView: View {
                         .foregroundColor(Color.theme.accent)
                         .accentColor(Color.theme.accent)
                     
-                    AutoSizeTextField(text: $viewModel.captionTextField, hint: "What do you want to say about your find? Tap to write...", containerHeight: $containerHeight) {
+                    AutoSizeTextField(text: $viewModel.captionTextField, hint: "Write your notes here...", containerHeight: $containerHeight) {
                     }
                     .accentColor(Color.theme.accent)
                     .frame(height: containerHeight <= 200 ? containerHeight : 200)
@@ -180,7 +183,7 @@ struct AddEntityView: View {
                         
                         ZStack {
                             
-                            MapView(centerCoordinate: $centerCoordinate)
+                            MapView(centerCoordinate: $viewModel.centerCoordinate)
                                 .frame(height: 250)
                                 .cornerRadius(10)
                             

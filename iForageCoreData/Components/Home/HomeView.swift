@@ -13,7 +13,7 @@ struct HomeView: View {
     @Environment(\.managedObjectContext) var viewContext
     
     @StateObject var viewModel: ViewModel
-    @StateObject var locationManager = LocationManager()
+    @StateObject var locationManager = LocationManager.shared
     
     init(viewModel: ViewModel){
         _viewModel = StateObject(wrappedValue: viewModel)
